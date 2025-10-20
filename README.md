@@ -8,3 +8,7 @@ En el tercero un reporte general por fechas etc.
 <img width="417" height="883" alt="Captura de pantalla 2025-10-20 162831" src="https://github.com/user-attachments/assets/11e64221-903f-49b6-853a-6b0e37d9edd3" />
 <img width="409" height="886" alt="Captura de pantalla 2025-10-20 162841" src="https://github.com/user-attachments/assets/9c73c3ea-ba65-4764-af15-4648f23321de" />
 <img width="427" height="901" alt="Captura de pantalla 2025-10-20 162848" src="https://github.com/user-attachments/assets/4b650d25-0587-41d2-8762-749230158a15" />
+
+
+Apk en el siguiente link
+https://github.com/KZLenin/RegistrosGastos/blob/master/appLeninTaco.apk
