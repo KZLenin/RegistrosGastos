@@ -1,17 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+  <ion-toolbar color="warning">
+    <ion-title>Galería de Recibos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let gasto of gastosService.obtenerGastos()">
+        <ion-card>
+          <img [src]="gasto.foto" />
+          <ion-card-header>
+            <ion-card-title>{{ gasto.descripcion }}</ion-card-title>
+            <ion-card-subtitle>${{ gasto.monto }}</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
